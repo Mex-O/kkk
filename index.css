@@ -1,66 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
 body,
 html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  overflow-x:hidden;
-  color:#69452b;
+  overflow-x: hidden;
+  color: #69452b;
   font-family: "Oswald", sans-serif;
 }
+
+main {
+  height: 100vh;
+}
+
 @media only screen and (max-width: 640px) {
-  body{
-    background:url('./images/Mobile_Web.jpg');
+  body {
+    background: url('./images/Mobile_Web.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    min-height:900px;
+    min-height: 900px;
     background-size: 100vw 100%;
     padding: 40px;
-    margin:0 !important;
+    margin: 0 !important;
+    height: 100%;
   }
-  .btn-primary{
-    margin-top:600px;
-    letter-spacing:5px;
-    padding:10px;
+
+  .btn-primary {
+    margin-top: 330px;
+    letter-spacing: 5px;
+    padding: 10px;
     text-transform: uppercase;
-    font-weight:700;
+    font-weight: 700;
   }
-  #footer{
-    margin-top:900px;
+
+  #footer {
+    margin-top: 360px;
   }
-  #footer .img-fluid{
-    height:50px;
-    width:50px;
-    margin:10px;
+
+  #footer .img-fluid {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
   }
 }
-@media only screen and (min-width:700px){
-  body{
-    background:url('./images/Pepebird_website_site.jpg');
+
+@media only screen and (min-width:700px) {
+  body {
+    background: url('./images/Pepebird_website_site.jpg') no-repeat center center;
     background-repeat: no-repeat;
-    min-height:500px !important;
-    background-position: center ;
-    background-size:100vw 100%;
-    width:100% !important;
+    min-height: 500px !important;
+    background-position: center;
+    background-size: 100vw 100%;
+    width: 100% !important;
   }
-  .btn-primary{
-    top:150%;
-    margin-left:100px;
-    letter-spacing:5px;
-    padding:15px;
-    position:absolute;
+
+  .btn-primary {
+    top: 55%;
+    margin-left: 100px;
+    letter-spacing: 5px;
+    padding: 15px;
+    position: absolute;
     text-transform: uppercase;
-    font-weight:700;
+    font-weight: 700;
   }
-  #footer{
-    padding:20px;
-    margin-top:220vh !important;
+
+  #footer {
+    padding: 20px;
+    margin-top: 850px;
+    
   }
-  #footer h4{
-    display:none;
+
+  #footer h4 {
+    display: none;
   }
-  #footer .img-fluid{
-    height:40px;
-    width:40px;
+
+  #footer .img-fluid {
+    height: 40px;
+    width: 40px;
   }
 }
